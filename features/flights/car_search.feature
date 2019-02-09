@@ -1,6 +1,8 @@
-Feature: car search functionality
+Feature: car search functionGiven i am on home page
+When search for the future available cars
+Then I shouldality
 
-  Feature: I am playing with the scenario
-  Given I am on cars home page
-  When I am searching for past date
-  Then I should get error message
+  Scenario: verify the search functionality works
+    Given i am on home page
+    When search for the future available cars
+    Then I should see the list of cars
